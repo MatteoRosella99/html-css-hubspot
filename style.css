@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.margini{
+  margin: auto;
+  width: 60%;
+}
+nav{
+  height: 85px;
+  background: red;
+}
+section::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.tit1{
+  height: 700px;
+  background: blue;
+}
+.cubo{
+  height: 480px;
+  background: violet;
+}
+.freehub{
+  height: 350px;
+  background: blue;
+}
+.varie{
+  float: left;
+  background: red;
+  width: 33.3%;
+  height: 500px;
+}
+.serv::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.carcere{
+  background: #00bda5;
+}
+.carcere::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.celletop{
+  background: yellow;
+  height: 300px;
+  margin: auto;
+  width: 60%;
+}
+.celle{
+  background: red;
+  height: 250px;
+  width: 25%;
+  float: left;
+}
+.clientiscritta{
+  float: left;
+  width: 40%;
+  background-color: blue;
+  height: 300px;
+}
+.clientilogo{
+  float: left;
+  width: 60%;
+  height: 300px;
+}
+.climg{
+  background: purple;
+  height: 150px;
+  width: 25%;
+  float: left;
+}
+.niggatext{
+  float: left;
+  background: orange;
+  height: 400px;
+  width: 60%;
+}
+.niggaimg{
+  float: left;
+  background: yellow;
+  height: 400px;
+  width: 40%;
+}
+.footlist{
+  background: red;
+  width: 25%;
+  height: 250px;
+  float: left;
+}
+.foot{
+  background: #33475b;
+}
+.foot::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.foot2{
+  background: yellow;
+  height: 70px;
+  width: 100%;
+}
+.margini::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.fotleft{
+  background: grey;
+  float: left;
+  width: 50%;
+  height: 130px;
+}
+.fotright{
+  background: black; 
+  float: right;
+  width: 50%;
+  height: 130px;
+}
