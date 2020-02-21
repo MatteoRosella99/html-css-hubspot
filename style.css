@@ -6,6 +6,7 @@ TAGS - CLASSI - ID */
   padding: 0;
   box-sizing: border-box;
   font-family: 'Play';
+  color: #33475b
 }
 a{
   text-decoration:none;
@@ -63,7 +64,21 @@ section::after{
 }
 .cubo{
   height: 480px;
-  background: violet;
+  text-align: center;
+  margin: 0 16%;
+}
+.cubo > img{
+  padding-top: 100px;
+  height: 300px;
+}
+.cubo > h2{
+  font-size: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cubo > p{
+  font-size: 18px;
+  line-height: 26px;
 }
 /* Sezione fisso */
 .fisso{
