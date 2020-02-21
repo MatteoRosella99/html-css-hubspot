@@ -2,12 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Play';
 }
 .margini{
   margin: auto;
   width: 60%;
 }
 nav{
+  height: 85px;
+  position: relative;
+}
+.fisso{
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  padding: 10px;
+  height: 85px;
+  background: #f5f8fa;
+  border-bottom: solid 0.5px grey;
+}
+.menu{
+  margin-top: 85px;
   height: 85px;
   background: red;
 }
@@ -119,8 +134,54 @@ section::after{
   height: 130px;
 }
 .fotright{
-  background: black; 
+  background: black;
   float: right;
   width: 50%;
   height: 130px;
+}
+.icon{
+  width: 70px;
+  padding-top: 11px;
+  padding-left: 39px;
+  float: left;
+}
+.fissolingue {
+  float: left;
+}
+.fissolingue > p{
+  display: inline-block;
+  padding: 10px 20px;
+}
+a{
+  text-decoration:none;
+}
+#bordo{
+  border-right: grey solid 0.5px;
+  margin: 15px;
+}
+.fissosearch{
+  float: right;
+  padding: 15px;
+}
+.fissosearch > button{
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: #ff7a59 0.5px solid;
+}
+button:hover{
+  cursor: pointer;
+}
+#login{
+  background-color: rgba(255, 0, 0, 0.0);
+  color: #ff7a59;
+}
+#free{
+  background-color: #ff7a59;
+  color: white;
+}
+.margini::after{
+  content: "";
+  display: table;
+  clear: both;
 }
