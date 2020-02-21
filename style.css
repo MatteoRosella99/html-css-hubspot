@@ -88,8 +88,8 @@ section::after{
 }
 .fissosearch > button{
   margin-left: 20px;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 13px 30px;
+  border-radius: 3px;
   border: #ff7a59 0.5px solid;
 }
 
@@ -177,9 +177,10 @@ section::after{
   display: table;
   clear: both;
 }
-.tit1{
-  height: 700px;
-  background: blue;
+.tit1sfondo{
+  height: 800px;
+  background-image: url(jumbocoso.png);
+  background-size: cover;
 }
 .varie{
   float: left;
