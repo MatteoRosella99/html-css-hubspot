@@ -1,58 +1,29 @@
+/* Fogli di style CSS
+ORGANIZZATO IN ORDINE ALFABETICO PER
+TAGS - CLASSI - ID */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Play';
 }
-.margini{
-  margin: auto;
-  width: 60%;
+a{
+  text-decoration:none;
+  color: #33475b;
+}
+button:hover{
+  cursor: pointer;
 }
 nav{
   height: 85px;
   position: relative;
-}
-.fisso{
-  position: fixed;
-  top: 0px;
-  width: 100vw;
-  padding: 10px;
-  height: 85px;
-  background: #f5f8fa;
-  border-bottom: solid 0.5px grey;
-}
-.menu{
-  margin-top: 85px;
-  height: 85px;
 }
 section::after{
   content: "";
   display: table;
   clear: both;
 }
-.tit1{
-  height: 700px;
-  background: blue;
-}
-.cubo{
-  height: 480px;
-  background: violet;
-}
-.freehub{
-  height: 350px;
-  background: blue;
-}
-.varie{
-  float: left;
-  background: red;
-  width: 33.3%;
-  height: 500px;
-}
-.serv::after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 .carcere{
   background: #00bda5;
 }
@@ -61,17 +32,17 @@ section::after{
   display: table;
   clear: both;
 }
-.celletop{
-  background: yellow;
-  height: 300px;
-  margin: auto;
-  width: 60%;
-}
 .celle{
   background: red;
   height: 250px;
   width: 25%;
   float: left;
+}
+.celletop{
+  background: yellow;
+  height: 300px;
+  margin: auto;
+  width: 60%;
 }
 .clientiscritta{
   float: left;
@@ -90,24 +61,39 @@ section::after{
   width: 25%;
   float: left;
 }
-.niggatext{
-  float: left;
-  background: orange;
-  height: 400px;
-  width: 60%;
+.cubo{
+  height: 480px;
+  background: violet;
 }
-.niggaimg{
-  float: left;
-  background: yellow;
-  height: 400px;
-  width: 40%;
+/* Sezione fisso */
+.fisso{
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  padding: 10px;
+  height: 85px;
+  background: #f5f8fa;
+  border-bottom: solid 0.5px grey;
 }
-.footlist{
-  background: red;
-  width: 25%;
-  height: 250px;
+.fissolingue {
   float: left;
 }
+.fissolingue > p{
+  display: inline-block;
+  padding: 10px 20px;
+}
+.fissosearch{
+  float: right;
+  padding: 15px;
+}
+.fissosearch > button{
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: #ff7a59 0.5px solid;
+}
+
+/* Sezione footer */
 .foot{
   background: #33475b;
 }
@@ -121,16 +107,17 @@ section::after{
   height: 70px;
   width: 100%;
 }
-.margini::after{
-  content: "";
-  display: table;
-  clear: both;
-}
 .fotleft{
   background: grey;
   float: left;
   width: 50%;
   height: 130px;
+}
+.footlist{
+  background: red;
+  width: 25%;
+  height: 250px;
+  float: left;
 }
 .fotright{
   background: black;
@@ -138,52 +125,24 @@ section::after{
   width: 50%;
   height: 130px;
 }
-#icon{
-  width: 60px;
-  padding-top: 11px;
-  padding-left: 30px;
-  float: left;
+
+.freehub{
+  height: 350px;
+  background: blue;
 }
-.fissolingue {
-  float: left;
-}
-.fissolingue > p{
-  display: inline-block;
-  padding: 10px 20px;
-}
-a{
-  text-decoration:none;
-  color: #33475b;
-}
-#bordo{
-  border-right: grey solid 0.5px;
-  margin: 15px;
-}
-.fissosearch{
-  float: right;
-  padding: 15px;
-}
-.fissosearch > button{
-  margin-left: 20px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: #ff7a59 0.5px solid;
-}
-button:hover{
-  cursor: pointer;
-}
-#login{
-  background-color: rgba(255, 0, 0, 0.0);
-  color: #ff7a59;
-}
-#free{
-  background-color: #ff7a59;
-  color: white;
+.margini{
+  margin: auto;
+  width: 60%;
 }
 .margini::after{
   content: "";
   display: table;
   clear: both;
+}
+/*  sezione menu */
+.menu{
+  margin-top: 85px;
+  height: 85px;
 }
 .menul{
   padding: 30px 43px;
@@ -199,4 +158,51 @@ button:hover{
 }
 .menur > p > strong > a{
   color: black;
+}
+
+.niggatext{
+  float: left;
+  background: orange;
+  height: 400px;
+  width: 60%;
+}
+.niggaimg{
+  float: left;
+  background: yellow;
+  height: 400px;
+  width: 40%;
+}
+.serv::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.tit1{
+  height: 700px;
+  background: blue;
+}
+.varie{
+  float: left;
+  background: red;
+  width: 33.3%;
+  height: 500px;
+}
+/* ID */
+#icon{
+  width: 60px;
+  padding-top: 11px;
+  padding-left: 30px;
+  float: left;
+}
+#login{
+  background-color: rgba(255, 0, 0, 0.0);
+  color: #ff7a59;
+}
+#free{
+  background-color: #ff7a59;
+  color: white;
+}
+#bordo{
+  border-right: grey solid 0.5px;
+  margin: 15px;
 }
