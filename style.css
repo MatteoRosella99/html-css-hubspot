@@ -24,7 +24,6 @@ nav{
 .menu{
   margin-top: 85px;
   height: 85px;
-  background: red;
 }
 section::after{
   content: "";
@@ -139,10 +138,10 @@ section::after{
   width: 50%;
   height: 130px;
 }
-.icon{
-  width: 70px;
+#icon{
+  width: 60px;
   padding-top: 11px;
-  padding-left: 39px;
+  padding-left: 30px;
   float: left;
 }
 .fissolingue {
@@ -154,6 +153,7 @@ section::after{
 }
 a{
   text-decoration:none;
+  color: #33475b;
 }
 #bordo{
   border-right: grey solid 0.5px;
@@ -184,4 +184,19 @@ button:hover{
   content: "";
   display: table;
   clear: both;
+}
+.menul{
+  padding: 30px 43px;
+  float: left;
+}
+.menur{
+  float: right;
+}
+.menur > p{
+  display: inline-block;
+  font-size: 18px;
+  padding: 35px 32px;
+}
+.menur > p > strong > a{
+  color: black;
 }
