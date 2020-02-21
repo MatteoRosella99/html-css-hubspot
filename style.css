@@ -142,7 +142,7 @@ section::after{
 /*  sezione menu */
 .menu{
   margin-top: 85px;
-  height: 85px;
+  height: 95px;
 }
 .menul{
   padding: 30px 43px;
@@ -177,6 +177,19 @@ section::after{
   display: table;
   clear: both;
 }
+.tit1{
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 37%;
+}
+.tit1 > h1{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.tit1 > p{
+  padding-bottom: 30px;
+  line-height: 24px;
+}
 .tit1sfondo{
   height: 800px;
   background-image: url(jumbocoso.png);
@@ -206,4 +219,13 @@ section::after{
 #bordo{
   border-right: grey solid 0.5px;
   margin: 15px;
+}
+#bottone{
+  margin-bottom: 30px;
+  padding: 25px 40px;
+  color: white;
+  background-color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  border-radius: 4px;
+  font-size: 18px;
 }
