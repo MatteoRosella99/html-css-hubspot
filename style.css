@@ -183,15 +183,33 @@ span{
   clear: both;
 }
 .foot2{
-  background: yellow;
-  height: 70px;
+  height: 80px;
   width: 100%;
 }
+.foot2 > ul{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.foot2 > ul > li{
+    display: inline-block;
+}
+.foot2 > ul > li > a{
+  padding: 10px 25px;
+  font-size: 20px;
+  color: white;
+}
+.foot2 > ul > li > a:hover{
+  color: #3dd2ff ;
+}
 .fotleft{
-  background: grey;
   float: left;
   width: 50%;
   height: 130px;
+  padding: 20px 30px;
+}
+.fotleft > p{
+  padding-top: 5px;
+  color: white;
 }
 .footlist{
   width: 25%;
@@ -215,10 +233,21 @@ span{
   padding-bottom: 25px;
 }
 .fotright{
-  background: black;
   float: right;
   width: 50%;
   height: 130px;
+  text-align: right;
+}
+.fotright > ul > li{
+  display: inline-block;
+  padding: 42px 28px;
+  font-size: 20px;
+}
+.fotright > ul > li > a{
+  color: white;
+}
+.fotright > ul > li > a:hover{
+  color: #3dd2ff;
 }
 /* Sezione freehub */
 .freehub{
@@ -406,6 +435,7 @@ span{
 #free{
   background-color: #ff7a59;
   color: white;
+  padding: 13px 16px;
 }
 #hubfree{
   margin-top: 30px;
