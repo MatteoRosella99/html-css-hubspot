@@ -27,7 +27,11 @@ section::after{
   display: table;
   clear: both;
 }
-
+span{
+  color: white;
+  font-size: 20px;
+}
+/* Sezione carcere */
 .carcere{
   background: #00bda5;
 }
@@ -36,17 +40,51 @@ section::after{
   display: table;
   clear: both;
 }
+.carcerebot{
+  padding-bottom: 150px;
+}
 .celle{
-  background: red;
   height: 250px;
   width: 25%;
   float: left;
+  text-align: center;
+  padding-top: 60px;
+  border-bottom: solid 0.5px white;
+  border-right: solid 0.5px white;
+}
+.celle > h2{
+  font-size: 54px;
+  color: white;
+  padding-top: 10px;
+}
+.celle > p{
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
 }
 .celletop{
-  background: yellow;
-  height: 300px;
+  height: 360px;
   margin: auto;
-  width: 60%;
+  width: 35%;
+  text-align: center;
+}
+.celletop > h3{
+  color: white;
+  padding-top: 120px;
+  font-size: 32px;
+  line-height: 40px;
+}
+.celletop > p{
+  color: white;
+  padding-top: 25px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.celnx{
+  border-right: none;
+}
+.celny{
+  border-bottom: none;
 }
 .clientiscritta{
   float: left;
@@ -218,6 +256,7 @@ section::after{
   height: 400px;
   width: 40%;
 }
+/* Servizi */
 .servizi::after{
   content: "";
   display: table;
@@ -255,6 +294,7 @@ section::after{
 .servarie > ul > li{
   padding-top: 15px;
 }
+
 .tit1{
   padding-top: 150px;
   padding-left: 50px;
