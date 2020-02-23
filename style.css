@@ -15,6 +15,9 @@ a{
 button:hover{
   cursor: pointer;
 }
+hr{
+  opacity: 50%;
+}
 nav{
   height: 85px;
   position: relative;
@@ -140,11 +143,39 @@ section::after{
   width: 50%;
   height: 130px;
 }
-
+/* Sezione freehub */
 .freehub{
   height: 350px;
-  background: blue;
+  padding-top: 50px
 }
+.freehubimg{
+  width: 40%;
+  float: left;
+  padding-left: 150px;
+}
+.freehubimg > img{
+  height: 180px;
+  padding-bottom: 30px;
+}
+.freehubtext{
+  float: left;
+  width: 60%;
+  padding-top: 10px;
+}
+.freehubtext > p{
+  padding-top:17px;
+  padding-bottom: 20px;
+}
+.freehubtext > h3{
+  font-size: 17px;
+  padding-bottom: 18px;
+}
+.freehubtext > ul > li{
+  display: inline-block;
+  padding-right: 45px;
+  padding-top: 5px;
+}
+
 .margini{
   margin: auto;
   width: 60%;
@@ -187,10 +218,42 @@ section::after{
   height: 400px;
   width: 40%;
 }
-.serv::after{
+.servizi::after{
   content: "";
   display: table;
   clear: both;
+}
+.servarie{
+  float: left;
+  width: 33.3%;
+  height: 680px;
+  padding: 30px 50px;
+}
+.servarie > h4{
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 13px;
+}
+.servarie > img{
+  height: 170px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.servarie > p{
+  line-height: 23px;
+  padding-bottom: 20px;
+}
+.servarie > h5{
+  text-align: center;
+  font-size: 16px;
+  padding-top: 20px;
+}
+.servarie > ul{
+  padding-left: 15px;
+  list-style-type: none;
+}
+.servarie > ul > li{
+  padding-top: 15px;
 }
 .tit1{
   padding-top: 150px;
@@ -210,27 +273,9 @@ section::after{
   background-image: url(jumbocoso.png);
   background-size: cover;
 }
-.varie{
-  float: left;
-  background: red;
-  width: 33.3%;
-  height: 500px;
-}
+
+
 /* ID */
-#icon{
-  width: 60px;
-  padding-top: 11px;
-  padding-left: 30px;
-  float: left;
-}
-#login{
-  background-color: rgba(255, 0, 0, 0.0);
-  color: #ff7a59;
-}
-#free{
-  background-color: #ff7a59;
-  color: white;
-}
 #bordo{
   border-right: grey solid 0.5px;
   margin: 15px;
@@ -243,4 +288,38 @@ section::after{
   border: #ff7a59 solid 1px;
   border-radius: 4px;
   font-size: 18px;
+}
+#crm{
+  margin-bottom: 30px;
+  margin-left: 25px;
+  padding: 15px 25px;
+  color: white;
+  background-color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#free{
+  background-color: #ff7a59;
+  color: white;
+}
+#icon{
+  width: 60px;
+  padding-top: 11px;
+  padding-left: 30px;
+  float: left;
+}
+#login{
+  background-color: rgba(255, 0, 0, 0.0);
+  color: #ff7a59;
+}
+#start{
+  margin-top: 30px;
+  margin-left: 70px;
+  padding: 15px 25px;
+  color: white;
+  background-color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  border-radius: 4px;
+  font-size: 16px;
 }
