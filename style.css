@@ -267,18 +267,36 @@ span{
 .menur > p > strong > a{
   color: black;
 }
-
+.nigga{
+  margin-top: 120px;
+  height: 550px;
+}
+.nigga::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 .niggatext{
   float: left;
-  background: orange;
-  height: 400px;
   width: 60%;
+  padding: 40px;
+  padding-right: 170px;
+}
+.niggatext > h2{
+  font-size: 34px;
+  padding-bottom: 25px;
+}
+.niggatext > p{
+  font-size: 18px;
+  line-height: 26px;
 }
 .niggaimg{
   float: left;
-  background: yellow;
-  height: 400px;
   width: 40%;
+}
+.niggaimg > img{
+  height: 420px;
+  padding-left: 100px;
 }
 /* Servizi */
 .servizi::after{
@@ -353,6 +371,11 @@ span{
   border-radius: 4px;
   font-size: 18px;
 }
+#correlati{
+  font-size: 14px;
+  opacity: 80%;
+  padding-top: 25px;
+}
 #crm{
   margin-bottom: 30px;
   margin-left: 25px;
@@ -366,6 +389,15 @@ span{
 #free{
   background-color: #ff7a59;
   color: white;
+}
+#hubfree{
+  margin-top: 30px;
+  padding: 14px 22px;
+  color: white;
+  background-color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  border-radius: 4px;
+  font-size: 16px;
 }
 #icon{
   width: 60px;
