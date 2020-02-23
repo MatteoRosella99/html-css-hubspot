@@ -43,6 +43,7 @@ span{
 .carcerebot{
   padding-bottom: 150px;
 }
+/* sezione celle */
 .celle{
   height: 250px;
   width: 25%;
@@ -86,11 +87,23 @@ span{
 .celny{
   border-bottom: none;
 }
+
+/* Sezione clienti */
 .clientiscritta{
   float: left;
   width: 40%;
-  background-color: blue;
   height: 300px;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 20px;
+}
+.clientiscritta > h3{
+  font-size: 44px;
+  padding-bottom: 10px;
+}
+.clientiscritta > p{
+  font-size: 22px;
+  line-height: 30px;
 }
 .clientilogo{
   float: left;
@@ -98,11 +111,21 @@ span{
   height: 300px;
 }
 .climg{
-  background: purple;
-  height: 150px;
   width: 25%;
   float: left;
+  text-align: center;
 }
+.climg > img{
+  width: 63%;
+}
+.clbot{
+  margin-top: 80px;
+}
+.cltop{
+  padding-top: 120px;
+}
+
+/* Sezione cubo */
 .cubo{
   height: 480px;
   text-align: center;
@@ -121,6 +144,7 @@ span{
   font-size: 18px;
   line-height: 26px;
 }
+
 /* Sezione fisso */
 .fisso{
   position: fixed;
@@ -213,7 +237,7 @@ span{
   padding-right: 45px;
   padding-top: 5px;
 }
-
+/* Sezione margini */
 .margini{
   margin: auto;
   width: 60%;
