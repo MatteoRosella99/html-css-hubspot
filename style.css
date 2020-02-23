@@ -194,10 +194,25 @@ span{
   height: 130px;
 }
 .footlist{
-  background: red;
   width: 25%;
-  height: 250px;
+  height: 450px;
   float: left;
+  padding: 80px 30px;
+}
+.footlist > h3{
+  color: white;
+}
+.footlist > ul > li > a{
+  color: #cbd6e2;
+}
+.footlist > ul > li > a:hover{
+  color: #3dd2ff;
+}
+.footlist > ul{
+  padding-top: 12px;
+}
+.footlist > ul > li{
+  padding-bottom: 25px;
 }
 .fotright{
   background: black;
@@ -267,6 +282,7 @@ span{
 .menur > p > strong > a{
   color: black;
 }
+/* Sezione nigga */
 .nigga{
   margin-top: 120px;
   height: 550px;
@@ -298,6 +314,7 @@ span{
   height: 420px;
   padding-left: 100px;
 }
+
 /* Servizi */
 .servizi::after{
   content: "";
@@ -418,4 +435,11 @@ span{
   border: #ff7a59 solid 1px;
   border-radius: 4px;
   font-size: 16px;
+}
+#support{
+  padding: 15px 20px;
+  border: #33475b 1px solid;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 13px;
 }
