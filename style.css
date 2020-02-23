@@ -1,6 +1,8 @@
 /* Fogli di style CSS
 ORGANIZZATO IN ORDINE ALFABETICO PER
 TAGS - CLASSI - ID */
+
+/* TAGS */
 *{
   margin: 0;
   padding: 0;
@@ -31,6 +33,9 @@ span{
   color: white;
   font-size: 20px;
 }
+
+/* CLASSI */
+
 /* Sezione carcere */
 .carcere{
   background: #00bda5;
@@ -43,6 +48,7 @@ span{
 .carcerebot{
   padding-bottom: 150px;
 }
+
 /* sezione celle */
 .celle{
   height: 250px;
@@ -191,7 +197,7 @@ span{
   padding-bottom: 50px;
 }
 .foot2 > ul > li{
-    display: inline-block;
+  display: inline-block;
 }
 .foot2 > ul > li > a{
   padding: 10px 25px;
@@ -201,6 +207,7 @@ span{
 .foot2 > ul > li > a:hover{
   color: #3dd2ff ;
 }
+/* footer di sinistra */
 .fotleft{
   float: left;
   width: 50%;
@@ -211,6 +218,7 @@ span{
   padding-top: 5px;
   color: white;
 }
+
 .footlist{
   width: 25%;
   height: 450px;
@@ -232,6 +240,7 @@ span{
 .footlist > ul > li{
   padding-bottom: 25px;
 }
+/* footer di destra */
 .fotright{
   float: right;
   width: 50%;
@@ -249,6 +258,7 @@ span{
 .fotright > ul > li > a:hover{
   color: #3dd2ff;
 }
+
 /* Sezione freehub */
 .freehub{
   height: 350px;
@@ -281,6 +291,7 @@ span{
   padding-right: 45px;
   padding-top: 5px;
 }
+
 /* Sezione margini */
 .margini{
   margin: auto;
@@ -291,6 +302,7 @@ span{
   display: table;
   clear: both;
 }
+
 /*  sezione menu */
 .menu{
   margin-top: 85px;
@@ -311,6 +323,7 @@ span{
 .menur > p > strong > a{
   color: black;
 }
+
 /* Sezione nigga */
 .nigga{
   margin-top: 120px;
@@ -382,7 +395,7 @@ span{
 .servarie > ul > li{
   padding-top: 15px;
 }
-
+/* Sezione titolo */
 .tit1{
   padding-top: 150px;
   padding-left: 50px;
