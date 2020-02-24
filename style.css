@@ -221,14 +221,20 @@ span{
 
 .footlist{
   width: 25%;
-  height: 450px;
+  height: 490px;
   float: left;
   padding: 80px 30px;
+}
+.footlist > p{
+  color: white;
 }
 .footlist > h3{
   color: white;
 }
 .footlist > ul > li > a{
+  color: #cbd6e2;
+}
+.footlist > ul > li > a > i{
   color: #cbd6e2;
 }
 .footlist > ul > li > a:hover{
@@ -291,7 +297,21 @@ span{
   padding-right: 45px;
   padding-top: 5px;
 }
+.freehubtext > ul > li > i{
+  color: #ff7a59;
+  padding-right: 8px;
+  font-size: 18px;
+}
 
+.insta{
+  display: inline-block;
+  padding-right: 12px;
+  margin-top: 0;
+  font-size: 18px;
+}
+.insta > a > i:hover{
+  color: #3dd2ff;
+}
 /* Sezione margini */
 .margini{
   margin: auto;
@@ -394,6 +414,11 @@ span{
 }
 .servarie > ul > li{
   padding-top: 15px;
+}
+.servarie > ul > li > i{
+  color: #ff7a59;
+  padding-right: 8px;
+  font-size: 18px;
 }
 /* Sezione titolo */
 .tit1{
